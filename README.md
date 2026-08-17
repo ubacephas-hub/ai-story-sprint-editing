@@ -40,3 +40,4 @@ Change passwords after first login. New public enrollments begin as **Pending** 
 - External video sources: proxied server-side rather than placed in lesson HTML
 
 No payment gateway is included. The `course_access` model (`pending`, `active`, `suspended`) is ready for a future payment integration. The course model supports more courses/modules/lessons in the future.
+Deployment configured for Vercel.
