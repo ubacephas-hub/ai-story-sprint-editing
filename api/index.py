@@ -1,3 +1,6 @@
-from app import App
+from app import App, init_db
 
-app = App()
+init_db()
+
+class handler(App):
+    pass
